@@ -12,6 +12,7 @@
 /build
 /dist
 /public
+/inputs
 
 # misc
 .DS_Store
