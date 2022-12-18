@@ -4,7 +4,7 @@ import { personSelector } from "../state/selectors/personSelector";
 import { PersonUI } from "./PersonUI";
 
 export function NameListUI(): React.ReactElement {
-  const persons = useSelector(personSelector);
+  const persons = useSelector(personSelector(1));
   return (
     <li>
       {persons.map(person => (
