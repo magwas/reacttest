@@ -13,6 +13,8 @@
 /dist
 /public
 /inputs
+/shippable
+/target
 
 # misc
 .DS_Store

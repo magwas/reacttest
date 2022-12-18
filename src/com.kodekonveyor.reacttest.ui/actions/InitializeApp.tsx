@@ -1,5 +1,7 @@
+import { AnyAction } from "@reduxjs/toolkit";
 import { MainState } from "../state/types/MainState";
 
-export function InitializeApp(dispatch: React.Dispatch<any>, mainState: MainState) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars, @typescript-eslint/no-empty-function
+export function InitializeApp(dispatch: React.Dispatch<AnyAction>, mainState: MainState) {
 
 }
