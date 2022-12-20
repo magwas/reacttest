@@ -1,4 +1,4 @@
-import { describe, expect, test } from '@jest/globals';
+import { describe, expect } from '@jest/globals';
 import { AnyAction } from '@reduxjs/toolkit';
 import { mock, mockFn } from 'jest-mock-extended';
 
